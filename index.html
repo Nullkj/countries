@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Countries by cristiroma</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Countries</h1>
+        <p>Database with list of countries in various formats such as SQL/JSON/CSV. Also there are flags in two sizes 128x64 and 32x16. GIS data is next step.</p>
+
+        <p class="view"><a href="https://github.com/cristiroma/countries">View the Project on GitHub <small>cristiroma/countries</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/cristiroma/countries/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/cristiroma/countries/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/cristiroma/countries">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="statement" class="anchor" href="#statement"><span class="octicon octicon-link"></span></a>Statement</h1>
+
+<p>The purpose of this project is to provide a reusable, portable data set with world country information. 
+I would like to provide the data set in various formats to make it easy to use from popular programming languages.</p>
+
+<p>Current storage data formats for the country data (under data/ directory):</p>
+
+<ul>
+<li>SQL dump (MySQL)</li>
+<li>JSON</li>
+<li>CSV</li>
+</ul><p>Features:</p>
+
+<ul>
+<li>Database SQL script with country table</li>
+<li>Hi-quality flags (PNG file) available in two sizes:
+
+<ul>
+<li>max 128 px height (128 x 64)</li>
+<li>max 32 px height (32 x 16)</li>
+</ul>
+</li>
+</ul><h1>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h1>
+
+<p>Everything you need is under the <code>data/</code> dir.</p>
+
+<h2>
+<a name="mysql" class="anchor" href="#mysql"><span class="octicon octicon-link"></span></a>MySQL</h2>
+
+<p>Open a console and load the countries:</p>
+
+<pre><code>    $&gt; cat data/mysql/country.sql | mysql -u username -p database
+</code></pre>
+
+<h1>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h1>
+
+<p>Database with world country list, their flags and name in various languages
+Copyright (C) 2011  Cristian Romanescu</p>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/cristiroma">cristiroma</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
